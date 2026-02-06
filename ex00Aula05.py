@@ -8,7 +8,7 @@ match opcao:
     case 1:
         print(" 1 - par ou ímpar")
         numero = int(input("Escolha um número:"))
-        if numero %2 == 0:
+        if numero % 2 == 0:
             print("O numero é par.")
         else:
             print("o numero é impar.") 
@@ -27,4 +27,4 @@ match opcao:
         n = int(input("Escolha o 1° numero: ")) 
         print(f"O dobro do número é: {n*2}") 
     case _:
-        print('Opção inválida')      
+        print("Opção inválida, digite novamente")      
